@@ -1,0 +1,60 @@
+# Site settings
+title: microz42
+url: "https://microz42.github.io"
+baseurl: ""
+description: >
+    microz42 블로그
+
+# My information
+email: dpfj484@gmail.com
+author: microz42
+profile: 미생물
+github_username: microz42
+comment-support: utterances
+
+# Build settings
+plugins:
+  - jekyll-paginate
+  - jekyll-gist
+
+permalink: /blog/:year/:month/:day/:title/
+
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+paginate: 10
+paginator_path: "/blog"
+paginate_path: "/blog/page:num/"
+
+# Collections
+collections:
+    wiki:
+        output: true
+        permalink: /:collection/:path/
+
+# Comment Service
+giscus:
+  repo: microz42/microz42.github.io
+  repo_id: R_kgDOOfZMrg
+  category: Announcements
+  category_id: DIC_kwDOOfZMrs4Cpctx
+
+google_analytics:
+  ua: G-CDC8YTPJYS
+  encrypted_ua: THIS-IS-SAMPLE-VALUE
+
+google_adsense:
+  client: ca-pub-3643108842291909
+
+blame: "https://github.com/microz42/microz42.github.io/blame/master/_wiki"
+edit: "https://github.com/microz42/microz42.github.io/edit/master/_wiki"
+issue: "https://github.com/microz42/microz42.github.io/issues/new"
+
+timezone: "Asia/Seoul"
+
+# https://kramdown.gettalong.org/rdoc/Kramdown/Options.html - smart_quotes
+kramdown:
+    smart_quotes: ["apos", "apos", "quot", "quot"]
