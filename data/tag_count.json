@@ -1,5 +1,9 @@
 [
  {
+  "name": "articles",
+  "size": 1
+ },
+ {
   "name": "how-to",
   "size": 1
  },
