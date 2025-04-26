@@ -1,0 +1,14 @@
+{
+ "type": "wiki",
+ "title": "RFC(Requests For Comments)",
+ "summary": "일련번호가 매겨진 인터넷 표준 문서",
+ "parent": "index",
+ "url": "/wiki/rfc",
+ "updated": "2023-11-07 22:55:11 +0900",
+ "resource": "6F/286146-5C56-4DAA-96DE-6C7B24F6FC2D",
+ "children": [
+  "rfc/1855",
+  "rfc/1925",
+  "rfc/1950"
+ ]
+}

@@ -1,0 +1,10 @@
+{
+ "type": "wiki",
+ "title": "sha256sum 명령어",
+ "summary": "compute and check SHA256 message digest",
+ "parent": "cmd",
+ "url": "/wiki/sha256sum",
+ "updated": "2018-08-24 22:12:12 +0900",
+ "resource": "67/C44AB9-1816-4E3B-AD93-7E181ADFC275",
+ "children": []
+}

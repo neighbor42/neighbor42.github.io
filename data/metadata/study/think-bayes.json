@@ -1,0 +1,18 @@
+{
+ "type": "wiki",
+ "title": "(study) 파이썬을 활용한 베이지안 통계",
+ "summary": "",
+ "parent": "study",
+ "url": "/wiki/study/think-bayes",
+ "updated": "2024-06-09 23:15:07 +0900",
+ "resource": "33/D21645-7D6D-4343-A0A8-475637A6670A",
+ "children": [
+  "cookie-problem",
+  "dice-problem",
+  "euro-problem",
+  "locomotive-problem",
+  "Monty-Hall-problem",
+  "Oliver-s-blood",
+  "study-think-bayes/m-n-m-problem"
+ ]
+}

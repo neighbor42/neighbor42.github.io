@@ -11,12 +11,12 @@ layout: document
         <p class="title-summary">{{ page.summary }}</p>
     {% endif %}
         <div class="history-button">
-            <p><a href="{{ site.blame }}/{{ thisName }}.md" target="_blank">created: {{ page.date | date: '%Y.%m.%d' }}</a></p>
-            <p><a href="{{ site.blame }}/{{ thisName }}.md" target="_blank">updated: {{ page.updated | date: '%Y.%m.%d' }}</a></p>
+            <p><a href="{{ site.history }}/{{ thisName }}.md" target="_blank">created: {{ page.date | date: '%Y.%m.%d' }}</a></p>
+            <p><a href="{{ site.history }}/{{ thisName }}.md" target="_blank">updated: {{ page.updated | date: '%Y.%m.%d' }}</a></p>
             <p>
-                <a href="{{ site.edit }}/{{ thisName }}.md">편집하기</a>
-                /
-                <a href="{{ site.issue }}?title={{ page.title | url_encode }}&body=의견을%20남겨주세요">의견 남기기</a>
+                <a href="{{ site.blame }}/{{ thisName }}.md" target="_blank">blame 보기</a>
+                / <a href="{{ site.edit }}/{{ thisName }}.md">편집하기</a>
+                / <a href="{{ site.issue }}?title={{ page.title | url_encode }}&body=의견을%20남겨주세요">의견 남기기</a>
             </p>
         </div>
 {% raw %}
@@ -31,6 +31,7 @@ layout: document
     </header>
     <article class="post-content">
         {{ content }}
+        <!-- document-list 는 sub-document-list 가 없을 경우에 대한 대안이다 -->
         <div id="document-list"></div>
     </article>
 {% if page.comment != false %}

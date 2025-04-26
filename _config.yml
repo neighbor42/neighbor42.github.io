@@ -1,16 +1,17 @@
 # Site settings
-title: microz42
+title: 사이트 이름
 url: "https://microz42.github.io"
 baseurl: ""
 description: >
-    microz42 블로그
+    블로그 설명 글
 
 # My information
 email: dpfj484@gmail.com
 author: microz42
-profile: 미생물
+profile: microz42
 github_username: microz42
-comment-support: utterances
+#comment-support: utterances
+comment-support: giscus
 
 # Build settings
 plugins:
@@ -36,6 +37,14 @@ collections:
         permalink: /:collection/:path/
 
 # Comment Service
+disqus:
+  id: microz42
+  shortname: microz42
+utterances:
+  repo: microz42/microz42.github.io
+  issue-term: url
+  label: Comment
+  branch: master
 giscus:
   repo: microz42/microz42.github.io
   repo_id: R_kgDOOfZMrg
@@ -46,10 +55,8 @@ google_analytics:
   ua: G-CDC8YTPJYS
   encrypted_ua: THIS-IS-SAMPLE-VALUE
 
-google_adsense:
-  client: ca-pub-3643108842291909
-
 blame: "https://github.com/microz42/microz42.github.io/blame/master/_wiki"
+history: "https://github.com/microz42/microz42.github.io/commits/master/_wiki"
 edit: "https://github.com/microz42/microz42.github.io/edit/master/_wiki"
 issue: "https://github.com/microz42/microz42.github.io/issues/new"
 

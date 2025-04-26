@@ -1,0 +1,10 @@
+{
+ "type": "wiki",
+ "title": "Go dependency manager",
+ "summary": "사람들이 많이 쓰는 걸 쓰자",
+ "parent": "go",
+ "url": "/wiki/golang-dependency-manager",
+ "updated": "2020-01-03 08:45:11 +0900",
+ "resource": "5C/941345-982B-4557-9374-88CA8059C52E",
+ "children": []
+}

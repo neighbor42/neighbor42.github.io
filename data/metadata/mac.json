@@ -1,0 +1,18 @@
+{
+ "type": "wiki",
+ "title": "macOS",
+ "summary": "macOS 사용 노하우 모음",
+ "parent": "index",
+ "url": "/wiki/mac",
+ "updated": "2022-02-26 23:27:54 +0900",
+ "resource": "B9/EC026F-2DB4-46A5-BAC7-46F9D0A37E9E",
+ "children": [
+  "hammerspoon",
+  "mac/appcleaner",
+  "mac/iterm",
+  "mac/keyboard-shortcuts",
+  "mac/screenshot",
+  "mac/setting",
+  "mac/terminal-guide"
+ ]
+}

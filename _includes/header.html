@@ -6,8 +6,7 @@
     <title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
 
     <meta name="description" content="{{ page.summary }}">
-    <meta name="google-site-verification" content="ac17NB6vLVKTtCwqilyAD-W7BRGvPzu6RVJZ2P-NyXY" />
-    <meta name="google-adsense-account" content="ca-pub-3643108842291909">
+    <meta name="google-site-verification" content="xD2UvBTOH6xxBi9MseahHz4Nt9u2vYZbgY2wVo7Bdyc" />
 
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
@@ -16,7 +15,7 @@
     <meta property="og:type" content="website">
     <meta property="og:title" content="{{ page.title }}">
     <meta property="og:description" content="{{ page.summary }}">
-    <meta property="og:image" content="{{ site.url }}/resource/microz42.png">
+    <meta property="og:image" content="{{ site.url }}/resource/johngrib.png">
     <meta property="og:url" content="{{ site.url }}{{ page.url }}">
 
     <meta name="twitter:card" content="summary" />
@@ -87,15 +86,6 @@
                 console.log(error);
                 console.log('The gtag id is invalid.');
             });
-    </script>
-{% endif %}
-{% if site.google_adsense.client and page.adsense == true %}
-    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <script>
-      (adsbygoogle = window.adsbygoogle || []).push({
-        google_ad_client: "{{ site.google_adsense.client }}",
-        enable_page_level_ads: true
-      });
     </script>
 {% endif %}
 

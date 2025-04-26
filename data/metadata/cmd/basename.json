@@ -1,0 +1,10 @@
+{
+ "type": "wiki",
+ "title": "basename 명령어",
+ "summary": "주어진 경로에서 파일명만 추출한다",
+ "parent": "cmd",
+ "url": "/wiki/cmd/basename",
+ "updated": "2022-10-15 11:00:03 +0900",
+ "resource": "9A/DBE3FA-5A1F-4715-8027-D14BEA9130C1",
+ "children": []
+}

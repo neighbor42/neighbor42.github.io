@@ -1,0 +1,19 @@
+[
+ "commit-go-mod-go-sum",
+ "ctags",
+ "go",
+ "go/blog",
+ "go/blog/debugging-what-you-deploy",
+ "go/blog/mod",
+ "go/blog/subtests",
+ "go/blog/the-laws-of-reflection",
+ "go/ginkgo",
+ "go/reflect",
+ "go/struct-padding",
+ "golang-cheatsheet",
+ "golang-dependency-manager",
+ "golang-types",
+ "vim-go-auto-import",
+ "vim-go-env",
+ "vim-go-with-ultisnips"
+]

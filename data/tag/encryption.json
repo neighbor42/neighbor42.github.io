@@ -1,0 +1,9 @@
+[
+ "cmd/openssl",
+ "cmd/pwgen",
+ "crypto",
+ "crypto/caesar",
+ "crypto/rsa",
+ "jargon/kerckhoffs-principle",
+ "sha256sum"
+]

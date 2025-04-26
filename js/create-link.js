@@ -31,7 +31,7 @@
 
     (function iterate_node(node) {
 
-        if (/^(?:p|ul|h\d|table)$/i.test(node.tagName)) {
+        if (/^(?:p|ol|ul|h\d|table)$/i.test(node.tagName)) {
 
             node.innerHTML = link(node.innerHTML);
 
@@ -123,7 +123,7 @@
     for (let i = 0; i < links.length; i++) {
         const link = links[i];
         const url = link.getAttribute('href');
-        if (/^(https?:\/\/)?microz42\.github\.io/.test(url) || /^[\/#]/.test(url)) {
+        if (/^(https?:\/\/)?johngrib\.github\.io/.test(url) || /^[\/#]/.test(url)) {
             // inner link
         } else {
             // external link
@@ -135,11 +135,15 @@
 
 ;(function footnoteToolTip() {
     // 주석에 툴팁을 붙인다
-    const supList = document.querySelectorAll('sup[role="doc-noteref"]');
+    //const supList = document.querySelectorAll('sup[role="doc-noteref"]');
+    const supList = document.querySelectorAll('sup');
     for (let i = 0; i < supList.length; i++) {
         const sup = supList[i];
 
         const note = sup.querySelector('.footnote');
+        if (note == null) {
+            continue;
+        }
         const id = note.getAttribute('href').replace(/^#/, "");
         const text = document.getElementById(id).innerHTML;
         sup.innerHTML += `<span class="tooltiptext" id="tooltip-${i}">${text}</span>`

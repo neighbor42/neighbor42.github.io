@@ -1,0 +1,11 @@
+[
+ "java/gc",
+ "java/gc/death-spiral",
+ "java/gc/eden-to-survivor",
+ "java/gc/g1gc",
+ "java/gc/parallel-collector",
+ "java/gc/serial-collector",
+ "java/gc/tuning-guide",
+ "java/gc/zgc",
+ "summary-The-Pauseless-GC-Algorithm"
+]

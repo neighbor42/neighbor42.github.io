@@ -1,0 +1,13 @@
+{
+ "type": "wiki",
+ "title": "Python",
+ "summary": "",
+ "parent": "language",
+ "url": "/wiki/python",
+ "updated": "2023-03-05 19:30:32 +0900",
+ "resource": "20/FFBCFB-2978-401F-9E70-E2D379C9D5ED",
+ "children": [
+  "python/pyenv",
+  "python/vim-setting"
+ ]
+}

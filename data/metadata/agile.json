@@ -1,0 +1,12 @@
+{
+ "type": "wiki",
+ "title": "애자일(agile) 이것저것",
+ "summary": "",
+ "parent": "software-engineering",
+ "url": "/wiki/agile",
+ "updated": "2024-01-07 23:34:08 +0900",
+ "resource": "99/0C2CFE-340D-4ACD-BC80-FA1D96C5101B",
+ "children": [
+  "agile/story-point"
+ ]
+}

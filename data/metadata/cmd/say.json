@@ -1,0 +1,10 @@
+{
+ "type": "wiki",
+ "title": "say 명령어",
+ "summary": "macOS에서 음성으로 문자열을 읽게 한다",
+ "parent": "cmd",
+ "url": "/wiki/cmd/say",
+ "updated": "2024-03-09 22:38:36 +0900",
+ "resource": "BA/AE113B-02A3-465E-B6C9-CC407B634DFE",
+ "children": []
+}

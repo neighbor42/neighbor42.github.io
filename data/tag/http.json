@@ -1,0 +1,10 @@
+[
+ "cmd/httpie",
+ "hack/http-client-clojure",
+ "http",
+ "HTTP-THE-DEFINITIVE-GUIDE",
+ "httpbin.org",
+ "URI",
+ "vim/rest-console",
+ "why-http-80-https-443"
+]

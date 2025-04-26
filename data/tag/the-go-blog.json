@@ -1,0 +1,7 @@
+[
+ "go/blog",
+ "go/blog/debugging-what-you-deploy",
+ "go/blog/mod",
+ "go/blog/subtests",
+ "go/blog/the-laws-of-reflection"
+]

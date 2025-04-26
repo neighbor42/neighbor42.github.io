@@ -1,0 +1,10 @@
+{
+ "type": "wiki",
+ "title": "vim :match",
+ "summary": "현재 윈도우에서 하이라이트할 패턴을 지정한다",
+ "parent": "vim",
+ "url": "/wiki/vim/match",
+ "updated": "2022-10-19 23:01:32 +0900",
+ "resource": "EA/C316A4-B298-4AC2-A261-A994BE71BA36",
+ "children": []
+}

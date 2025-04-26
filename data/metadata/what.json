@@ -1,0 +1,23 @@
+{
+ "type": "wiki",
+ "title": "what",
+ "parent": "index",
+ "url": "/wiki/what",
+ "updated": "2018-04-04 09:04:07 +0900",
+ "resource": "E2/3DE0F6-FA5C-4730-9B37-5655F5528712",
+ "children": [
+  "availability",
+  "bandwidth",
+  "enterprise-application",
+  "floating-point",
+  "groupId-artifactId",
+  "indent-style",
+  "latency",
+  "rouge-supported-languages",
+  "special-chars",
+  "transistor",
+  "units",
+  "Unix-philosophy",
+  "URI"
+ ]
+}
