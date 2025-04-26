@@ -4,7 +4,7 @@ title   : wiki
 toc     : true
 public  : true
 comment : false
-updated : 2025-04-26 12:41:08 +0900
+updated : 2025-04-26 12:57:43 +0900
 regenerate: true
 ---
 
@@ -14,6 +14,7 @@ regenerate: true
 
 ## [[articles/]]
 - [[ReAct]]
+- [[weeknd]]
 
 [[/mkdir]]
 [[what/]]
