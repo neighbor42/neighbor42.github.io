@@ -1,7 +1,6 @@
 #!/bin/sh
 
 ./generateData.js
-# node generateData.js
 ./tool/save-images.sh
 
 
