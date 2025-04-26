@@ -4,7 +4,7 @@ title   : wiki
 toc     : true
 public  : true
 comment : false
-updated : 2025-04-26 11:33:38 +0900
+updated : 2025-04-26 12:41:08 +0900
 regenerate: true
 ---
 
@@ -12,8 +12,13 @@ regenerate: true
 
 * [[mathjax-latex]]
 
-## Articles
+## [[articles/]]
 - [[ReAct]]
+
+[[/mkdir]]
+[[what/]]
+
+[[/yes]]
 
 
 [[test]]
