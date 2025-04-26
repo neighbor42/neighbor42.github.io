@@ -6,6 +6,7 @@
   "dependencies": {
     "yamljs": "^0.3.0"
   },
+  "devDependencies": {},
   "scripts": {
     "test": "echo no test found"
   },
