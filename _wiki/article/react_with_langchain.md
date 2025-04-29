@@ -3,11 +3,11 @@ layout  : wiki
 title   : ReAct 논문 리딩
 summary : 
 date    : 2025-04-28 09:14:31 +0900
-updated : 2025-04-29 16:55:56 +0900
+updated : 2025-04-29 16:59:59 +0900
 tag     : ReAct, langchain
 toc     : true
 public  : true
-parent  : [[article]]
+parent  : [[/article]]
 latex   : false
 resource: 086577D8-A282-AB24-D5BA-53339E38DFA9
 ---
@@ -66,7 +66,8 @@ Chain of Thought 논문에서 처음 등장한 개념이다. CoT는 모델이 �
 
 
 # ReAct 구조
-![Image](https://github.com/user-attachments/assets/3e4d66fa-1e18-4e00-82ac-c40150db98d4)
+
+![image](https://github.com/user-attachments/assets/3e4d66fa-1e18-4e00-82ac-c40150db98d4)
 
 여기서 ReAct가 등장한다.
 
@@ -85,11 +86,13 @@ ReAct는 아래의 흐름을 따른다.
 ## HotPotQA 데이터셋 사용 예시
 
 ![hotpot_qa_original_prompt](https://github.com/user-attachments/assets/9d3ebb59-2f93-4ece-a6cc-10eb1d6b812c)
+
 만약 질문을 바로 던지면, 기본적으로 "1986"이라는 답변만 얻는다.
 
 
 
 ![hotpot_qa_reason_only_prompt](https://github.com/user-attachments/assets/2b3fd80d-5005-4ac9-900c-943ab87a14ac)
+
 만약 추론만 한다면
 - 어떤 형태로든 CoT 프롬프트를 넣게 되고
 - 그러면 답변에 도달하기 전에 어느 정도의 추론 과정이 포함된 결과를 얻게 된다.
