@@ -3,7 +3,7 @@ layout  : wiki
 title   : ReAct 논문 리딩
 summary : 
 date    : 2025-04-28 09:14:31 +0900
-updated : 2025-04-29 16:41:18 +0900
+updated : 2025-04-29 16:55:56 +0900
 tag     : ReAct, langchain
 toc     : true
 public  : true
@@ -66,8 +66,7 @@ Chain of Thought 논문에서 처음 등장한 개념이다. CoT는 모델이 �
 
 
 # ReAct 구조
-
-![react](https://github.com/user-attachments/assets/8145586d-370c-42ee-84d6-427610a120f2)
+![Image](https://github.com/user-attachments/assets/3e4d66fa-1e18-4e00-82ac-c40150db98d4)
 
 여기서 ReAct가 등장한다.
 
