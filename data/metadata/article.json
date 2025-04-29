@@ -1,33 +1,12 @@
 {
  "type": "wiki",
- "title": "Articles",
+ "title": "논문 리딩",
  "summary": "",
- "parent": "root-index",
+ "parent": "index",
  "url": "/wiki/article",
- "updated": "2022-02-17 22:22:31 +0900",
- "resource": "15/F5576D-A085-418B-B7C1-B1B4A945323A",
+ "updated": "2025-04-28 09:02:08 +0900",
+ "resource": "1F9239DC-9F64-7549-106D-324B94489E6C",
  "children": [
-  "article/coupon-service-and-code-data",
-  "article/excel-snake-game",
-  "article/extend-vim-gx",
-  "article/hierarchical-controller-package-structure",
-  "article/incremental-way",
-  "article/iphone-game-with-no-cable",
-  "article/out-of-the-vim",
-  "article/science-and-delete",
-  "article/sql-char-comparison",
-  "article/ssh-macmini-macbook",
-  "article/test-code-and-falsifiability",
-  "article/vim-night/20220327-ultisnips",
-  "article/vim-night/20220331-insert-mode",
-  "article/vim-night/20220401-insert-mode",
-  "article/vim-night/20220402-surround",
-  "article/vim-night/20220403-slash-search",
-  "article/vim-night/20220404-control-key",
-  "article/vim-night/20220406-escape",
-  "article/vim-night/20220407-cheatsheet",
-  "article/vim-night/20220408-ctags",
-  "article/vim-night/20220409-session",
-  "article/vimwiki-lsp"
+  "article/react_with_langchain"
  ]
 }
