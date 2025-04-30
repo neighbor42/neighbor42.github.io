@@ -1,9 +1,9 @@
 ---
 layout  : wiki
-title   : ReAct 논문 리딩
+title   : ReAct 프롬프팅 리뷰
 summary : 
 date    : 2025-04-28 09:14:31 +0900
-updated : 2025-04-29 16:59:59 +0900
+updated : 2025-04-30 10:10:26 +0900
 tag     : ReAct, langchain
 toc     : true
 public  : true
@@ -20,7 +20,8 @@ LLM을 사용할 때 가장 어려운 점은 모델이 우리가 원하는 방�
 
 # Reasoning(추론)의 개념
 
-![reason_only](https://github.com/user-attachments/assets/65f18462-a195-4f2f-9144-6336dfbdfd3c)
+![reason_only](https://github.com/user-attachments/assets/65f18462-a195-4f2f-9144-6336dfbdfd3c.png)
+![test](https://github-production-user-asset-6210df.s3.amazonaws.com/106816837/438622755-65f18462-a195-4f2f-9144-6336dfbdfd3c.png)
 
 Chain of Thought 논문에서 처음 등장한 개념이다. CoT는 모델이 답변을 내리기 전에 사고 과정을 거치게 하는 벙법인데, 이 방식은 모델 성능을 높이는 데 효과적이다. 이유는 다음과 같다.
 - 사용자가 질문을 던지면, 모델은 답부터 내고, 이후에 그 답을 정당화하려는 설명을 한다.
