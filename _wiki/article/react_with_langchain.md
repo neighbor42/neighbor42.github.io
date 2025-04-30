@@ -3,7 +3,7 @@ layout  : wiki
 title   : ReAct 프롬프팅 리뷰
 summary : 
 date    : 2025-04-28 09:14:31 +0900
-updated : 2025-04-30 10:10:26 +0900
+updated : 2025-04-30 10:39:17 +0900
 tag     : ReAct, langchain
 toc     : true
 public  : true
@@ -19,8 +19,7 @@ LLM을 사용할 때 가장 어려운 점은 모델이 우리가 원하는 방�
 
 
 # Reasoning(추론)의 개념
-![reason_only](https://github.com/user-attachments/assets/65f18462-a195-4f2f-9144-6336dfbdfd3c)
-![img](https://i.imgur.com/IHiBGFl.png)
+![reason_only](https://i.imgur.com/IHiBGFl.png)
 
 Chain of Thought 논문에서 처음 등장한 개념이다. CoT는 모델이 답변을 내리기 전에 사고 과정을 거치게 하는 벙법인데, 이 방식은 모델 성능을 높이는 데 효과적이다. 이유는 다음과 같다.
 - 사용자가 질문을 던지면, 모델은 답부터 내고, 이후에 그 답을 정당화하려는 설명을 한다.
@@ -33,7 +32,7 @@ Chain of Thought 논문에서 처음 등장한 개념이다. CoT는 모델이 �
 
 
 # Action(행동)의 개념
-![act_only](https://github.com/user-attachments/assets/dbf4cc39-33c2-417e-9a37-bf1f24b8242e)
+![act_only](https://i.imgur.com/0EPtF3C.png)
 추론만이 아니라 모델이 직접 행동하게 하는 연구도 진행되어 왔다.
 
 모델이 실제 환경에서 어떤 행동(action)을 수행하게 하고 그 행동의 결과를 관찰(observation)하여 다시 모델에 반영하는 방식이다. 이러한 접근의 대표적인 예가 SayCan 모델이다
@@ -67,7 +66,7 @@ Chain of Thought 논문에서 처음 등장한 개념이다. CoT는 모델이 �
 
 # ReAct 구조
 
-![image](https://github.com/user-attachments/assets/3e4d66fa-1e18-4e00-82ac-c40150db98d4)
+![image](https://i.imgur.com/UAeaozx.png)
 
 여기서 ReAct가 등장한다.
 
@@ -85,13 +84,13 @@ ReAct는 아래의 흐름을 따른다.
 
 ## HotPotQA 데이터셋 사용 예시
 
-![hotpot_qa_original_prompt](https://github.com/user-attachments/assets/9d3ebb59-2f93-4ece-a6cc-10eb1d6b812c)
+![hotpot_qa_original_prompt](https://i.imgur.com/Xra5YCX.png)
 
 만약 질문을 바로 던지면, 기본적으로 "1986"이라는 답변만 얻는다.
 
 
 
-![hotpot_qa_reason_only_prompt](https://github.com/user-attachments/assets/2b3fd80d-5005-4ac9-900c-943ab87a14ac)
+![hotpot_qa_reason_only_prompt](https://i.imgur.com/Aof4FJE.png)
 
 만약 추론만 한다면
 - 어떤 형태로든 CoT 프롬프트를 넣게 되고
