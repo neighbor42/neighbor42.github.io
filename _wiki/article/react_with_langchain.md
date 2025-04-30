@@ -3,7 +3,7 @@ layout  : wiki
 title   : ReAct 프롬프팅 리뷰
 summary : 
 date    : 2025-04-28 09:14:31 +0900
-updated : 2025-04-30 10:39:17 +0900
+updated : 2025-04-30 11:53:32 +0900
 tag     : ReAct, langchain
 toc     : true
 public  : true
@@ -33,6 +33,7 @@ Chain of Thought 논문에서 처음 등장한 개념이다. CoT는 모델이 �
 
 # Action(행동)의 개념
 ![act_only](https://i.imgur.com/0EPtF3C.png)
+
 추론만이 아니라 모델이 직접 행동하게 하는 연구도 진행되어 왔다.
 
 모델이 실제 환경에서 어떤 행동(action)을 수행하게 하고 그 행동의 결과를 관찰(observation)하여 다시 모델에 반영하는 방식이다. 이러한 접근의 대표적인 예가 SayCan 모델이다
@@ -88,6 +89,7 @@ ReAct는 아래의 흐름을 따른다.
 
 만약 질문을 바로 던지면, 기본적으로 "1986"이라는 답변만 얻는다.
 
+<br>
 
 
 ![hotpot_qa_reason_only_prompt](https://i.imgur.com/Aof4FJE.png)
@@ -95,6 +97,27 @@ ReAct는 아래의 흐름을 따른다.
 만약 추론만 한다면
 - 어떤 형태로든 CoT 프롬프트를 넣게 되고
 - 그러면 답변에 도달하기 전에 어느 정도의 추론 과정이 포함된 결과를 얻게 된다.
+
+<br>
+
+![hotpot_qa_act_only_prompt](https://i.imgur.com/WnCt5eD.png)
+만약 행동만 하도록 한다면,
+- 기본적으로 모델에게 검색을 지시하고
+- 관찰 결과를 가져오게 한 다음
+- 또 다른 조회를 수행해서
+- 다시 관찰 결과를 가져온 후
+- 그 과정을 통해 답변에 도달하게 된다
+
+<br>
+
+![hotpot_qa_react_prompt](https://i.imgur.com/gC0DDRP.png)
+이 방식의 핵심은, In-context learning과 결합해 비슷한 유형의 여러 예시를 미리 모델에 학습시킨 뒤, 새로운 질문을 던지는 것이다.
+
+그러면 모델은
+- 사고 > 행동 > 관찰을 받아오는 과정을 단계별로 따르게 된다.
+- 또 필요한 경우, 추가 사고, 행동, 관찰을 반복하면서 최종적으로 완성된 답변(Finish)를 만들어낸다.
+
+
 
 # ReAct 프롬프트 작성 팁
 중요한 점:
