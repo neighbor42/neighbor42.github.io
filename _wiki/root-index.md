@@ -5,7 +5,7 @@ toc     : true
 public  : true
 comment : false
 resource: 06/227923-8E1A-42ED-BD8B-7B8C4E1E70EE
-updated : 2025-04-30 08:49:49 +0900
+updated : 2025-05-02 12:09:28 +0900
 regenerate: true
 ---
 * TOC
@@ -13,6 +13,7 @@ regenerate: true
 
 ## [[/article]]
 - [[/article/react_with_langchain]]
+- [[/article/docling]]
 
 ## [[/how]]
 - [[/how/my-first-wiki]]
