@@ -1,6 +1,14 @@
 [
  {
+  "name": "docling,",
+  "size": 1
+ },
+ {
   "name": "langchain",
+  "size": 1
+ },
+ {
+  "name": "parser",
   "size": 1
  },
  {
