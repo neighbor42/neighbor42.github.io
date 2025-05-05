@@ -1,9 +1,9 @@
 # Site settings
-title: 사이트 이름
+title: microz42
 url: "https://microz42.github.io"
 baseurl: ""
 description: >
-    블로그 설명 글
+    microz42 블로그
 
 # My information
 email: dpfj484@gmail.com
