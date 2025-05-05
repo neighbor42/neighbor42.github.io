@@ -2,9 +2,9 @@
  "type": "wiki",
  "title": "blog posts",
  "summary": "",
- "parent": "root-index",
+ "parent": "index",
  "url": "/wiki/blog",
- "updated": "2025-05-05 22:19:15 +0900",
+ "updated": "2025-05-05 22:47:06 +0900",
  "resource": "B2/5BBF81-EE58-45F8-B194-CF3E6E3B1F94",
  "children": [
   "blog/2025-05-05-teddynotelab"
