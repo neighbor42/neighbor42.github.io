@@ -4,6 +4,10 @@
   "size": 1
  },
  {
+  "name": "freeze",
+  "size": 1
+ },
+ {
   "name": "johngrib",
   "size": 1
  },
@@ -13,6 +17,10 @@
  },
  {
   "name": "parser",
+  "size": 1
+ },
+ {
+  "name": "pipreqs",
   "size": 1
  },
  {
