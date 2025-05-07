@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-sitemap: https://microz42.github.io/sitemap.xml
+Sitemap: https://microz42.github.io/sitemap.xml

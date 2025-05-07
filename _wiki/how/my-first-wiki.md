@@ -3,7 +3,7 @@ layout  : wiki
 title   : 나만의 위키 만들기 johngrib-jekyll-skeleton 포크해서 시작하기
 summary : 
 date    : 2025-04-28 10:45:30 +0900
-updated : 2025-05-05 23:27:27 +0900
+updated : 2025-05-07 08:03:59 +0900
 tag     : vimwiki johngrib
 toc     : true
 public  : true
@@ -60,7 +60,8 @@ let g:vimwiki_conceallevel = 0
     - google site-verification
         - google search console > 접두어 > html 파일 다운로드 > root에 추가 커밋 푸시 > 확인
     - google search console
-        - sitemap 링크 추가
+    	- sitemap.xml URL 검사(색인 생성 완료 후)
+        - 색인생성 > Sitemaps에서 sitemap.xml 링크 추가
     - favicon 변경
     - [https://www.favicon-generator.org/](https://www.favicon-generator.org/)
 
@@ -87,6 +88,8 @@ npm install
 #### windows 경로 슬래시 문제
 - windows에는 uuidgen.exe가 기본 설치가 되어있지 않음
 - 나중에 윈도우 설정 파일 + 문제 해결 방법 작성
+
+
 
 ## 사용법
 - 인덱스(root-index.md)에 폴더와 문서 적고 작성
