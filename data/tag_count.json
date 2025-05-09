@@ -1,13 +1,5 @@
 [
  {
-  "name": "커리어",
-  "size": 2
- },
- {
-  "name": "테디노트",
-  "size": 2
- },
- {
   "name": "docling,",
   "size": 1
  },
@@ -50,5 +42,13 @@
  {
   "name": "vimwiki",
   "size": 1
+ },
+ {
+  "name": "커리어",
+  "size": 2
+ },
+ {
+  "name": "테디노트",
+  "size": 2
  }
 ]

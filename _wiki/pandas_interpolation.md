@@ -1,9 +1,9 @@
 ---
 layout  : wiki
-title   : pandas interpolation(보간법)\: 결측치 처리
+title   : pandas interpolation(보간법) - 결측치 처리
 summary : 
 date    : 2025-05-09 21:09:43 +0900
-updated : 2025-05-09 21:50:33 +0900
+updated : 2025-05-09 21:55:11 +0900
 tag     : interpolation pandas nan
 resource: 18/96E368-B307-470B-9C47-E92273BA20D9
 toc     : true
