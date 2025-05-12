@@ -3,7 +3,7 @@ layout  : wiki
 title   : 나만의 위키 만들기 johngrib-jekyll-skeleton 포크해서 시작하기
 summary : 
 date    : 2025-04-28 10:45:30 +0900
-updated : 2025-05-07 08:03:59 +0900
+updated : 2025-05-07 11:07:51 +0900
 tag     : vimwiki johngrib
 toc     : true
 public  : true
@@ -101,6 +101,7 @@ npm install
 - sitemap 추가
 
 # timeline
+- 250507: google search console에 sitemap 추가
 - 250505: vimwiki 설정 내용 수정
 - 250429: image 업로드 이슈
 

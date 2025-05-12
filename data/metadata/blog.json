@@ -7,6 +7,7 @@
  "updated": "2025-05-05 22:47:06 +0900",
  "resource": "B2/5BBF81-EE58-45F8-B194-CF3E6E3B1F94",
  "children": [
-  "blog/2025-05-05-teddynotelab"
+  "blog/2025-05-05-teddynotelab",
+  "blog/2025-05-12-catastrophic_forgetting"
  ]
 }

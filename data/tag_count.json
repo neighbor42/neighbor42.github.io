@@ -1,6 +1,22 @@
 [
  {
+  "name": "커리어",
+  "size": 2
+ },
+ {
+  "name": "테디노트",
+  "size": 2
+ },
+ {
+  "name": "catastrophic",
+  "size": 1
+ },
+ {
   "name": "docling,",
+  "size": 1
+ },
+ {
+  "name": "forgetting",
   "size": 1
  },
  {
@@ -17,6 +33,10 @@
  },
  {
   "name": "langchain",
+  "size": 1
+ },
+ {
+  "name": "learning-curve",
   "size": 1
  },
  {
@@ -42,13 +62,5 @@
  {
   "name": "vimwiki",
   "size": 1
- },
- {
-  "name": "커리어",
-  "size": 2
- },
- {
-  "name": "테디노트",
-  "size": 2
  }
 ]
