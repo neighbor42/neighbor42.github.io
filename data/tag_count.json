@@ -1,13 +1,5 @@
 [
  {
-  "name": "커리어",
-  "size": 2
- },
- {
-  "name": "테디노트",
-  "size": 2
- },
- {
   "name": "catastrophic",
   "size": 1
  },
@@ -60,7 +52,23 @@
   "size": 1
  },
  {
+  "name": "study",
+  "size": 2
+ },
+ {
   "name": "vimwiki",
   "size": 1
+ },
+ {
+  "name": "기본기",
+  "size": 1
+ },
+ {
+  "name": "커리어",
+  "size": 2
+ },
+ {
+  "name": "테디노트",
+  "size": 2
  }
 ]

@@ -6,10 +6,15 @@
  "/wiki/blog",
  "/wiki/blog/2025-05-05-teddynotelab",
  "/wiki/blog/2025-05-12-catastrophic_forgetting",
+ "/wiki/books",
+ "/wiki/books/understanding_deep_learning",
  "/wiki/how",
  "/wiki/how/my-first-wiki",
  "/wiki/index",
  "/wiki/pandas_interpolation",
  "/wiki/pipreqs",
- "/wiki/root-index"
+ "/wiki/root-index",
+ "/wiki/study",
+ "/wiki/study/understanding_deep_learning",
+ "/wiki/study/understnading_deep_learning/ch1_introduction"
 ]

@@ -7,8 +7,10 @@
  "children": [
   "article",
   "blog",
+  "books",
   "how",
   "pandas_interpolation",
-  "pipreqs"
+  "pipreqs",
+  "study"
  ]
 }
