@@ -56,11 +56,19 @@
   "size": 2
  },
  {
+  "name": "supervised",
+  "size": 1
+ },
+ {
   "name": "vimwiki",
   "size": 1
  },
  {
   "name": "기본기",
+  "size": 1
+ },
+ {
+  "name": "지도학습",
   "size": 1
  },
  {

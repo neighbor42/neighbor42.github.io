@@ -7,6 +7,7 @@
  "updated": "2025-05-14 14:53:46 +0900",
  "resource": "EF/BC18A3-A2F9-4383-913B-B45CD65D5C9D",
  "children": [
-  "study/understnading_deep_learning/ch1_introduction"
+  "study/understanding_deep_learning/ch1_introduction",
+  "study/understanding_deep_learning/ch2_supervised_learning"
  ]
 }
