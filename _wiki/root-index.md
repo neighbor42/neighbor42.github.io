@@ -5,7 +5,7 @@ toc     : true
 public  : true
 comment : false
 resource: 06/227923-8E1A-42ED-BD8B-7B8C4E1E70EE
-updated : 2025-05-14 15:49:18 +0900
+updated : 2025-05-22 17:25:12 +0900
 regenerate: true
 ---
 * TOC
@@ -25,7 +25,8 @@ regenerate: true
 ## [[/study]]
 
 ### [[/study/understanding_deep_learning]]
-- [[/study/understnading_deep_learning/ch1_introduction]]
+- [[/study/understanding_deep_learning/ch1_introduction]]
+- [[/study/understanding_deep_learning/ch2_supervised_learning]]
 
 
 ## [[/how]]
