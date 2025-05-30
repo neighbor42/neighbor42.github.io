@@ -1,19 +1,7 @@
 [
  {
-  "name": "기본기",
+  "name": "activation",
   "size": 1
- },
- {
-  "name": "지도학습",
-  "size": 1
- },
- {
-  "name": "커리어",
-  "size": 2
- },
- {
-  "name": "테디노트",
-  "size": 2
  },
  {
   "name": "arrays",
@@ -21,6 +9,14 @@
  },
  {
   "name": "catastrophic",
+  "size": 1
+ },
+ {
+  "name": "deep",
+  "size": 1
+ },
+ {
+  "name": "dnn",
   "size": 1
  },
  {
@@ -52,11 +48,19 @@
   "size": 1
  },
  {
+  "name": "learning",
+  "size": 1
+ },
+ {
   "name": "learning-curve",
   "size": 1
  },
  {
   "name": "nan",
+  "size": 1
+ },
+ {
+  "name": "networks",
   "size": 1
  },
  {
@@ -76,6 +80,10 @@
   "size": 1
  },
  {
+  "name": "shallow",
+  "size": 1
+ },
+ {
   "name": "strings",
   "size": 1
  },
@@ -90,5 +98,21 @@
  {
   "name": "vimwiki",
   "size": 1
+ },
+ {
+  "name": "기본기",
+  "size": 1
+ },
+ {
+  "name": "지도학습",
+  "size": 1
+ },
+ {
+  "name": "커리어",
+  "size": 2
+ },
+ {
+  "name": "테디노트",
+  "size": 2
  }
 ]
