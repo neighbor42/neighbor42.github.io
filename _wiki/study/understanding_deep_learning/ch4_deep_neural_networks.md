@@ -3,7 +3,7 @@ layout  : wiki
 title   : ch4 - deep neural networks(심층 신경망)
 summary : 
 date    : 2025-05-30 16:59:57 +0900
-updated : 2025-05-30 22:34:10 +0900
+updated : 2025-05-30 22:36:50 +0900
 tag     : dnn deep learning
 resource: 33/2AAEA8-3206-47CC-B155-DDA8442C1C75
 toc     : true
@@ -14,7 +14,7 @@ latex   : false
 * TOC
 {:toc}
 
-## jargons
+## Jargons
 
 
 | 개념                                 | 설명                                                                                                                |
