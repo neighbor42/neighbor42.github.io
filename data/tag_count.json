@@ -16,6 +16,14 @@
   "size": 1
  },
  {
+  "name": "deeplearning",
+  "size": 1
+ },
+ {
+  "name": "design",
+  "size": 1
+ },
+ {
   "name": "dnn",
   "size": 1
  },
@@ -33,6 +41,10 @@
  },
  {
   "name": "freeze",
+  "size": 1
+ },
+ {
+  "name": "function",
   "size": 1
  },
  {
@@ -56,11 +68,27 @@
   "size": 1
  },
  {
+  "name": "loss",
+  "size": 1
+ },
+ {
+  "name": "math",
+  "size": 1
+ },
+ {
+  "name": "ml",
+  "size": 1
+ },
+ {
   "name": "nan",
   "size": 1
  },
  {
   "name": "networks",
+  "size": 1
+ },
+ {
+  "name": "notation",
   "size": 1
  },
  {
@@ -93,6 +121,14 @@
  },
  {
   "name": "supervised",
+  "size": 1
+ },
+ {
+  "name": "symbol",
+  "size": 1
+ },
+ {
+  "name": "tailwind",
   "size": 1
  },
  {

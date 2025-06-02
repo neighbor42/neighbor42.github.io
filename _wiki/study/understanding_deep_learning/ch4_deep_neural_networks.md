@@ -3,7 +3,7 @@ layout  : wiki
 title   : ch4 - deep neural networks(심층 신경망)
 summary : 
 date    : 2025-05-30 16:59:57 +0900
-updated : 2025-05-30 22:40:11 +0900
+updated : 2025-06-02 16:12:44 +0900
 tag     : dnn deep learning
 resource: 33/2AAEA8-3206-47CC-B155-DDA8442C1C75
 toc     : true
@@ -17,7 +17,7 @@ latex   : false
 ## jargons
 
 
-| 개념                                 | 설명                                                                                                                |
+| 단어                                 | 설명                                                                                                                |
 | ----------------                     | -----------------------------                                                                                       |
 | deep neural networks(심층 신경망)    | 하나 이상의 은닉층(hidden layer)를 가진 신경망                                                                      |
 | shallow neural networks(얕은 신경망) | 단 하나의 은닉층을 가진 신경망                                                                                      |

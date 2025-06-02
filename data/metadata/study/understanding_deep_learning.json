@@ -10,6 +10,7 @@
   "study/understanding_deep_learning/ch1_introduction",
   "study/understanding_deep_learning/ch2_supervised_learning",
   "study/understanding_deep_learning/ch3_shallow_neural_networks",
-  "study/understanding_deep_learning/ch4_deep_neural_networks"
+  "study/understanding_deep_learning/ch4_deep_neural_networks",
+  "study/understanding_deep_learning/ch5_loss_function"
  ]
 }
