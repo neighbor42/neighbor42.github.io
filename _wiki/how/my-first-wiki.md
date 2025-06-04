@@ -3,7 +3,7 @@ layout  : wiki
 title   : 나만의 위키 만들기 johngrib-jekyll-skeleton 포크해서 시작하기
 summary : 
 date    : 2025-04-28 10:45:30 +0900
-updated : 2025-05-07 11:07:51 +0900
+updated : 2025-06-04 08:55:37 +0900
 tag     : vimwiki johngrib
 toc     : true
 public  : true
@@ -93,6 +93,7 @@ npm install
 
 ## 사용법
 - 인덱스(root-index.md)에 폴더와 문서 적고 작성
+- 수학 기호 작성시 문서 상단의 latex를 true로 변경
 
 # ToDo
 - 디자인 변경
@@ -101,6 +102,7 @@ npm install
 - sitemap 추가
 
 # timeline
+- 250602: 새 디자인 구상
 - 250507: google search console에 sitemap 추가
 - 250505: vimwiki 설정 내용 수정
 - 250429: image 업로드 이슈
