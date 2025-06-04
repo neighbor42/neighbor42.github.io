@@ -5,15 +5,12 @@ toc     : true
 public  : true
 comment : false
 resource: 06/227923-8E1A-42ED-BD8B-7B8C4E1E70EE
-updated : 2025-06-02 16:29:23 +0900
+updated : 2025-06-04 16:16:37 +0900
 regenerate: true
 ---
 * TOC
 {:toc}
 
-## [[/blog]]
-- [[/blog/2025-05-05-teddynotelab]]
-- [[/blog/2025-05-12-catastrophic_forgetting]]
 
 ## [[/article]]
 - [[/article/react_with_langchain]]
@@ -44,6 +41,11 @@ regenerate: true
 - [[pandas_interpolation]]
 - [[understanding_dl_notation]]
 - [[vimwiki_design]]
+
+
+## [[/blog]]
+- [[/blog/2025-05-05-teddynotelab]]
+- [[/blog/2025-05-12-catastrophic_forgetting]]
 
 ---
 
