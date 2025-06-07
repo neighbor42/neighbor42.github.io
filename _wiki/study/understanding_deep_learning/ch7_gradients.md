@@ -3,7 +3,7 @@ layout  : wiki
 title   : ch7 - 역전파와 초기화의 중요성
 summary : 
 date    : 2025-06-07 22:50:05 +0900
-updated : 2025-06-07 22:54:00 +0900
+updated : 2025-06-07 22:57:35 +0900
 tag     : 
 resource: 2F/6AD52E-84D3-4E60-B180-D75C80A5FD5F
 toc     : true
@@ -23,4 +23,5 @@ latex   : false
 ## Parameter Initiazliation: 시작이 반
 
 ## 정리
+ag command test
 
