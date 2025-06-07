@@ -5,7 +5,7 @@ toc     : true
 public  : true
 comment : false
 resource: 06/227923-8E1A-42ED-BD8B-7B8C4E1E70EE
-updated : 2025-06-04 16:33:28 +0900
+updated : 2025-06-07 22:54:04 +0900
 regenerate: true
 ---
 * TOC
@@ -28,6 +28,7 @@ regenerate: true
 - [[/study/understanding_deep_learning/ch4_deep_neural_networks]]
 - [[/study/understanding_deep_learning/ch5_loss_function]]
 - [[/study/understanding_deep_learning/ch6_fitting_model]]
+- [[/study/understanding_deep_learning/ch7_gradients]]
 
 ## [[/dsa]]
 - [[/dsa/arrays_and_strings]]
