@@ -1,5 +1,21 @@
 [
  {
+  "name": "기본기",
+  "size": 1
+ },
+ {
+  "name": "지도학습",
+  "size": 1
+ },
+ {
+  "name": "커리어",
+  "size": 2
+ },
+ {
+  "name": "테디노트",
+  "size": 2
+ },
+ {
   "name": "activation",
   "size": 1
  },
@@ -96,6 +112,10 @@
   "size": 1
  },
  {
+  "name": "obsidian",
+  "size": 1
+ },
+ {
   "name": "pandas",
   "size": 1
  },
@@ -105,6 +125,10 @@
  },
  {
   "name": "pipreqs",
+  "size": 1
+ },
+ {
+  "name": "pkm",
   "size": 1
  },
  {
@@ -142,21 +166,5 @@
  {
   "name": "vimwiki",
   "size": 1
- },
- {
-  "name": "기본기",
-  "size": 1
- },
- {
-  "name": "지도학습",
-  "size": 1
- },
- {
-  "name": "커리어",
-  "size": 2
- },
- {
-  "name": "테디노트",
-  "size": 2
  }
 ]

@@ -1,0 +1,12 @@
+{
+ "type": "wiki",
+ "title": "Obsidian",
+ "summary": "",
+ "parent": "index",
+ "url": "/wiki/obsidian",
+ "updated": "2025-06-09 16:44:53 +0900",
+ "resource": "9F3DD098-9902-FE1C-17A6-AE8B8F8CFA56",
+ "children": [
+  "obsidian/obsidian_setup1"
+ ]
+}
