@@ -5,7 +5,7 @@ toc     : true
 public  : true
 comment : false
 resource: 06/227923-8E1A-42ED-BD8B-7B8C4E1E70EE
-updated : 2025-06-17 10:42:30 +0900
+updated : 2025-06-17 11:47:06 +0900
 regenerate: true
 ---
 * TOC
@@ -41,7 +41,7 @@ regenerate: true
 
 ## [[/incident_archive]]
 - [[/incident_archive/unicode_error_handling]]
-- [[/incident_archive/tiktoken_cache_http_error.md]]
+- [[/incident_archive/tiktoken_cache_http_error]]
 
 
 ## 미분류
