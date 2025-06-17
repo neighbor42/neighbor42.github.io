@@ -17,6 +17,8 @@
  "/wiki/incident_archive/tiktoken_cache_http_error",
  "/wiki/incident_archive/unicode_error_handling",
  "/wiki/index",
+ "/wiki/lifehacks",
+ "/wiki/lifehacks/semas_kyobo",
  "/wiki/obsidian",
  "/wiki/obsidian/obsidian_setup1",
  "/wiki/pandas_interpolation",
@@ -31,6 +33,7 @@
  "/wiki/study/understanding_deep_learning/ch5_loss_function",
  "/wiki/study/understanding_deep_learning/ch6_fitting_model",
  "/wiki/study/understanding_deep_learning/ch7_gradients",
+ "/wiki/tips",
  "/wiki/understanding_dl_notation",
  "/wiki/vimwiki_design"
 ]

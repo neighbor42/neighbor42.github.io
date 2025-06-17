@@ -3,7 +3,7 @@ layout  : wiki
 title   : 오프라인 환경에서 tiktoken(cl100k_base) 사용하기
 summary : 
 date    : 2025-06-17 10:06:34 +0900
-updated : 2025-06-17 10:44:21 +0900
+updated : 2025-06-17 16:15:08 +0900
 tag     : tiktoken encoding offline
 toc     : true
 public  : true
@@ -26,6 +26,7 @@ resource: D1D75FEF-E3D4-F05A-075B-CCDB12B0C1D5
 1. 파일 다운로드: 인터넷이 되는 PC에서 [cl100k_base.tiktoken 파일](https://openaipublic.blob.core.windows.net/encodings/cl100k_base.tiktoken) 다운로드
 2. `9b5ad71b2ce5302211f9c61530b329a4922fc6a4`로 파일 이름 변경
 3. tiktoken 사용하는 곳에 아래 코드 추가
+
 ```python
 import os
 
@@ -85,6 +86,7 @@ cl100k_base.tiktoken 파일을 9b5ad71b2ce5302211f9c61530b329a4922fc6a4 으로 �
 import os
 
 # 캐시 설정
+```python
 tiktoken_cache_dir = "path_to_folder_containing_tiktoken_file"
 os.environ["TIKTOKEN_CACHE_DIR"] = tiktoken_cache_dir
 

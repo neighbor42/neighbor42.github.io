@@ -92,6 +92,10 @@
   "size": 1
  },
  {
+  "name": "kyobo",
+  "size": 1
+ },
+ {
   "name": "langchain",
   "size": 1
  },
@@ -101,6 +105,10 @@
  },
  {
   "name": "learning-curve",
+  "size": 1
+ },
+ {
+  "name": "lifehacks",
   "size": 1
  },
  {
@@ -181,6 +189,10 @@
  },
  {
   "name": "tiktoken",
+  "size": 1
+ },
+ {
+  "name": "tip",
   "size": 1
  },
  {
