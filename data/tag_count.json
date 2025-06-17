@@ -60,6 +60,10 @@
   "size": 1
  },
  {
+  "name": "encoding",
+  "size": 1
+ },
+ {
   "name": "fallback",
   "size": 1
  },
@@ -128,6 +132,10 @@
   "size": 1
  },
  {
+  "name": "offline",
+  "size": 1
+ },
+ {
   "name": "pandas",
   "size": 1
  },
@@ -169,6 +177,10 @@
  },
  {
   "name": "tailwind",
+  "size": 1
+ },
+ {
+  "name": "tiktoken",
   "size": 1
  },
  {
