@@ -3,7 +3,7 @@ layout  : wiki
 title   : 오프라인 환경에서 tiktoken(cl100k_base) 사용하기
 summary : 
 date    : 2025-06-17 10:06:34 +0900
-updated : 2025-06-17 10:41:33 +0900
+updated : 2025-06-17 10:44:21 +0900
 tag     : tiktoken encoding offline
 toc     : true
 public  : true
@@ -101,3 +101,5 @@ encoding.encode("Hello, world from offline environment!")
 - 인터넷이 연결된 환경에서는 이 과정이 자동으로 진행됨
 - 하지만 인터넷 연결이 없는 오프라인 환경에서는 이 다운로드 과정이 실패, 서버에 연결할 수 없다는 HTTP 관련 오류 발생
 
+## 출처
+- [stackoverflow](https://stackoverflow.com/questions/76106366/how-to-use-tiktoken-in-offline-mode-computer)
