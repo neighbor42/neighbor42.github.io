@@ -4,6 +4,10 @@
   "size": 1
  },
  {
+  "name": "일반화",
+  "size": 1
+ },
+ {
   "name": "지도학습",
   "size": 1
  },
@@ -14,6 +18,10 @@
  {
   "name": "테디노트",
   "size": 2
+ },
+ {
+  "name": "합성곱",
+  "size": 1
  },
  {
   "name": "activation",
@@ -36,12 +44,20 @@
   "size": 1
  },
  {
+  "name": "cnn",
+  "size": 1
+ },
+ {
+  "name": "convolution",
+  "size": 1
+ },
+ {
   "name": "deep",
   "size": 1
  },
  {
   "name": "deeplearning",
-  "size": 1
+  "size": 2
  },
  {
   "name": "design",
@@ -81,6 +97,10 @@
  },
  {
   "name": "function",
+  "size": 1
+ },
+ {
+  "name": "generalization",
   "size": 1
  },
  {
@@ -161,6 +181,10 @@
  },
  {
   "name": "ReAct,",
+  "size": 1
+ },
+ {
+  "name": "regularization",
   "size": 1
  },
  {
