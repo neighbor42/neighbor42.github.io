@@ -7,6 +7,7 @@
  "updated": "2025-05-14 14:46:42 +0900",
  "resource": "E6/5D7BD7-7D40-4CBA-8870-D379A7AF50CD",
  "children": [
-  "study/understanding_deep_learning"
+  "study/understanding_deep_learning",
+  "study/understanding_dl_notation"
  ]
 }

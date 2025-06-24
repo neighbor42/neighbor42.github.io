@@ -13,6 +13,7 @@
  "/wiki/dsa/arrays_and_strings",
  "/wiki/how",
  "/wiki/how/my-first-wiki",
+ "/wiki/how/vimwiki_design",
  "/wiki/incident_archive",
  "/wiki/incident_archive/tiktoken_cache_http_error",
  "/wiki/incident_archive/unicode_error_handling",
@@ -36,7 +37,7 @@
  "/wiki/study/understanding_deep_learning/ch7_gradients",
  "/wiki/study/understanding_deep_learning/ch8_measuring_performance",
  "/wiki/study/understanding_deep_learning/ch9_regularization",
+ "/wiki/study/understanding_dl_notation",
  "/wiki/tips",
- "/wiki/understanding_dl_notation",
- "/wiki/vimwiki_design"
+ "/wiki/vllm_serve"
 ]
