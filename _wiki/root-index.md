@@ -5,7 +5,7 @@ toc     : true
 public  : true
 comment : false
 resource: 06/227923-8E1A-42ED-BD8B-7B8C4E1E70EE
-updated : 2025-06-20 15:38:50 +0900
+updated : 2025-06-24 10:52:01 +0900
 regenerate: true
 ---
 * TOC
@@ -20,6 +20,7 @@ regenerate: true
 - [[/books/understanding_deep_learning]]
 
 ## [[/study]]
+- [[/study/understanding_dl_notation]]
 
 ### [[/study/understanding_deep_learning]]
 - [[/study/understanding_deep_learning/ch1_introduction]]
@@ -41,6 +42,7 @@ regenerate: true
 
 ## [[/how]]
 - [[/how/my-first-wiki]]
+- [[/how/vimwiki_design]]
 
 ## [[/incident_archive]]
 - [[/incident_archive/unicode_error_handling]]
@@ -52,8 +54,7 @@ regenerate: true
 ## 미분류
 - [[pipreqs]]
 - [[pandas_interpolation]]
-- [[understanding_dl_notation]]
-- [[vimwiki_design]]
+- [[vllm_serve]]
 
 
 ## [[/blog]]
