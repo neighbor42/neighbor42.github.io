@@ -3,7 +3,7 @@ layout  : wiki
 title   : ch11 - ResNet
 summary : 
 date    : 2025-06-30 15:22:19 +0900
-updated : 2025-06-30 15:56:17 +0900
+updated : 2025-07-01 11:24:09 +0900
 tag     : resnet
 toc     : true
 public  : true
@@ -65,3 +65,8 @@ VGG가 19층까지 쌓아서 성능을 올리는 거 보고, 50층, 100층, 1000
 - 단순히 깊게 쌓으면 망한다(shattered gradients 현상 때문에 학습 불가)
 - Skip connection은 그래디언트 고속도로를 뚫어 아주 깊은 네트워크의 학습을 가능하게 한 혁신임
 - Batch Norm은 잔차 네트워크의 활성화 값 폭주를 막아주는 단짝이며, Resnet, DenseNet, U-net은 이 아이디어들을 바탕으로 만들어진 필수 교양 아키텍처이다.
+
+1. 문제: VGG와 같은 CNN 모델을 19층보다 더 깊게 쌓았더니 오히려 성능이 떨어지는 문제 발생
+2. 해결책: residual blocks(잔차 블록), 즉 스킵 연결(skip connection)이라는 개념을 도입. 이는 각 레이어가 출력을 완전히 새로 계산하는 대신, 입력에 대한 추가적인 변화량(additive change)만 학습하도록 하는 방식
+3. 추가 해결책: 잔차 연결은 또 다른 문제(초기화시 활성화 값의 폭발적 증가)를 일으키는데, 이를 보완하기 위해 BN(배치 정규화)를 사용
+4. 주요 아키텍처: 이러한 아이디어를 바탕으로 한 ResNet, DenseNet, U-Net과 같은 유명한 모델들이 있음

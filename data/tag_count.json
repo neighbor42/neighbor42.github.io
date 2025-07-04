@@ -108,6 +108,10 @@
   "size": 1
  },
  {
+  "name": "graph",
+  "size": 1
+ },
+ {
   "name": "interpolation",
   "size": 1
  },
@@ -161,6 +165,10 @@
  },
  {
   "name": "networks",
+  "size": 2
+ },
+ {
+  "name": "neural",
   "size": 1
  },
  {
