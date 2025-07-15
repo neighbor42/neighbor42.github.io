@@ -12,6 +12,10 @@
   "size": 1
  },
  {
+  "name": "충전",
+  "size": 1
+ },
+ {
   "name": "커리어",
   "size": 2
  },
@@ -40,7 +44,15 @@
   "size": 1
  },
  {
+  "name": "bose",
+  "size": 1
+ },
+ {
   "name": "catastrophic",
+  "size": 1
+ },
+ {
+  "name": "charge",
   "size": 1
  },
  {
