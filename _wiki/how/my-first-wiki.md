@@ -38,7 +38,7 @@ bundle exec jekyll serve
 
 ```
 let wiki = {}
-let wiki.path = '~/microz42.github.io/_wiki/' --> 내 주소로 변경
+let wiki.path = '~/neighbor42.github.io/_wiki/' --> 내 주소로 변경
 let wiki.ext = '.md'
 
 let g:vimwiki_list = [wiki]

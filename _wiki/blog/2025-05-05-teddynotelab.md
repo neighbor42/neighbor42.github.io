@@ -57,7 +57,7 @@ LangChain 관련 자료를 찾다가 또다시 "테디노트"라는 이름을 �
 
 ##### ✅ LangGraph × Agent 토이 프로젝트 수행
 - 지원 요건 중 하나였던 "LangGraph 기반 agent 토이 프로젝트"
-- [github](https://github.com/microz42/newsletter_agent_graph)
+- [github](https://github.com/neighbor42/newsletter_agent_graph)
 - 멀티에이전트 파이프라인 구현
 
 
