@@ -10,12 +10,12 @@
   body {
     width: 800px;
     margin: auto;
-    border: 1px solid #d0d0d0;
+    // border: 1px solid #000;  // 화면 테두리 선
   }
 }
 
 .page-content {
-    background:#FAFAFA;
+    background:#f6f5ea;  // 글 페이지 배경색 바탕색
     // padding: 30px 0;
 
     img {

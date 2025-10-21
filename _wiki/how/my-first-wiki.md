@@ -19,13 +19,25 @@ resource: 3B4E5F93-23F7-BD0F-399C-B6ACCC49763D
 ## 1. 깃허브 fork + 로컬 서버로 실행
 - johngrib skeleton fork
 - repo > settings > Pages > Bracnh 설정(master/root/) 후 Save
-- gem install jekyll bundler
+
+### 1-1 Ruby + Jekyll 설치
+- [ruby 다운로드 사이트](https://rubyinstaller.org/downloads/)
+- gem install jekyll bundler(ruby 다운로드 후 아래 명령어로 jekyll 설치)
 
 ```
 gem install jekyll bundler
 bundle install
 bundle exec jekyll serve
 ```
+
+\+ 에러(251021)
+- `warning: csv was loaded from the standard library, but is not part of the default gems starting from Ruby 3.4.0. You can add csv to your Gemfile or gemspec to silence this warning.`
+해결
+- `bundle add`를 사용해 필요한 gems 추가(나의 경우 2개가 빠져있었다)
+    - `bundle add csv`
+    - `bundle add base64`
+    - `bundle install`
+
 
 ## 2. vim 설치
 - gvim, nvim
@@ -102,6 +114,7 @@ npm install
 - sitemap 추가
 
 # timeline
+- 251021: 디자인 변경
 - 250716: 구글 맞춤 검색 코드 변경 & adsense
 - 250602: 새 디자인 구상
 - 250507: google search console에 sitemap 추가

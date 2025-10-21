@@ -10,16 +10,18 @@
     margin-top: 10px;
     text-align: center;
     a {
-        background: $theme-color;
-        color: #FFFFFF;
+        background: $theme-color;  // 버튼 배경색
+        color: #261201;  // 연락처(github, email, rss) 글자 색상
+        font-weight: bold;
         padding: 5px 10px;
         text-decoration: none;
         border-radius: 8px;
         white-space: nowrap;
 
         &:hover {
+            color: #000;
             transition: background 0.3s ease;
-            background: #666;
+            background: #3b4b59;  // 버튼 호버 색상
         }
     }
 }

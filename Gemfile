@@ -23,7 +23,7 @@ group :jekyll_plugins do
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem 'tzinfo-data', platforms: [:windows, :jruby]
 gem 'jekyll-paginate'
 gem 'jekyll-gist'
 
@@ -35,3 +35,7 @@ gem 'kramdown-parser-gfm'
 
 
 gem "webrick", "~> 1.8"
+
+gem "csv", "~> 3.3"
+
+gem "base64", "~> 0.3.0"

@@ -1,5 +1,5 @@
 ---
-layout  : lifehacks
+layout  : category
 title   : 유용한 팁
 summary : 
 date    : 2025-06-17 11:48:22 +0900

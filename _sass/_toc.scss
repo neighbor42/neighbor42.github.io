@@ -5,7 +5,7 @@
         bottom: 0;
         left: calc(50vw + 410px);
         width: 380px;
-        background-color: white;
+        background-color: #f6f5ea;
         z-index: 1;
         font-size: 0.8em;
         overflow-y:auto;
@@ -16,14 +16,14 @@
 }
 
 #markdown-toc {
-    border: 1px solid;
+    // border: 1px solid;
     padding: 10px;
     padding-left: 30px;
-    background-color: #FFFFFF;
+    background-color: #f6f5ea;
     line-height: 1.5;
 }
 
-$active-color: red;
+$active-color: #000000;
 .active-toc {
   color: $active-color;
 }

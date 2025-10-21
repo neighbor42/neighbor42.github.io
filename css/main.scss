@@ -4,15 +4,15 @@
 
 $base-font-family  : Arial;
 $default-font-size : 0.9rem;
-$default-font-color : #000;
-$second-font-color : #503e2b;
-$third-font-color : #9e948a;
-$forth-font-color : #808094;
+$default-font-color : #261201;
+$second-font-color : #ad1d1d;
+$third-font-color : #27F561;
+$forth-font-color : #5f503e;  // 제목 아래 글 색깔
 $small-font-size   : $default-font-size * 0.8;
 $base-line-height  : 1.5;
 
 $coding-font: Consolas, "Courier New", Courier;
-$theme-color: #47146C;
+$theme-color: #f6f5ea;  // 상단 색상
 
 // Import from 'sass_dir' (default: _sass)
 @import
