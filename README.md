@@ -1,2 +1,2 @@
-# microz42 github blog
+# neighbor42 github blog
 - jongrib vimwiki
