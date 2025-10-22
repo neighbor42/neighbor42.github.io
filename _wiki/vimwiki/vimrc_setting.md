@@ -36,8 +36,7 @@ let g:vimwiki_list = [{
 
 ![img](./resource/a2552bf3-ef86-4082-b0b0-b6f1cf07248d/EIQcDqC.png)
 
-![johngrib-comment](https://github.com/user-attachments/assets/5e2533b8-78a3-459c-9154-91be70a74acd)
-![comment](https://github-production-user-asset-6210df.s3.amazonaws.com/106816837/503954539-5e2533b8-78a3-459c-9154-91be70a74acd.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20251022%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251022T042414Z&X-Amz-Expires=300&X-Amz-Signature=ee13bea53ef39ee5d298ad80f00db775335e9e3079e10b0961855dbe869b2ca7&X-Amz-SignedHeaders=host)
+![johngrib-comment](./resource/a2552bf3-ef86-4082-b0b0-b6f1cf07248d/HxOCFCZ.png)
 
 
 Windows 에서도 resources(uuid) 칸을 사용할 생각이 없다면 아래와 같이 작성만해줘도 잘 돌아간다.
@@ -100,7 +99,7 @@ let g:vimwiki_list = [
 - `choco install ag`
 - 사진 복붙
 - 생성된 링크 사용
-![test](https://imgur.com/a/IBYvJla)
+
 
 ### 나의 초기 \_vimrc
 
