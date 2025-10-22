@@ -1,6 +1,6 @@
 #!/bin/sh
 
 ./generateData.js
-./tool/save-images.sh
+./tool/save-images.bat
 git add _data
 git add data
