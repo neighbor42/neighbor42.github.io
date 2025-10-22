@@ -3,7 +3,7 @@ layout  : wiki
 title   : 나의 Vimrc 설정
 summary : Windows _vimrc 
 date    : 2025-10-22 09:38:16 +0900
-updated : 2025-10-22 14:30:16 +0900
+updated : 2025-10-22 14:31:17 +0900
 tags    : _vimrc windows
 toc     : true
 public  : true
@@ -100,6 +100,7 @@ let g:vimwiki_list = [
 - `choco install ag`
 - 사진 복붙
 - 생성된 링크 사용
+![test](https://imgur.com/a/IBYvJla)
 
 ### 나의 초기 \_vimrc
 
