@@ -54,6 +54,7 @@
 
 # imgur
 #!/usr/bin/env bash
+#!/usr/bin/env bash
 
 BASE_RESOURCE_DIR="./resource"
 
@@ -91,35 +92,34 @@ for FILE in $CHANGE_LIST; do
     for PAGE_URL in $URLS; do
         IMG_ID="${PAGE_URL##*/}"
 
-        echo "작업 대상 URI: [$PAGE_URL]"
+        EXTENSIONS=("png" "jpg" "gif")
+        SUCCESS=0
 
-        DIRECT_URL=$(curl -sL "$PAGE_URL" | grep -oP '(?<=property="og:image" content=")[^"]+')
+        for EXT in "${EXTENSIONS[@]}"; do
+            DIRECT_URL="https://i.imgur.com/${IMG_ID}.${EXT}"
+            FILE_NAME="${IMG_ID}.${EXT}"
+            TARGET_PATH="$TARGET_DIR/$FILE_NAME"
 
-        if [ -z "$DIRECT_URL" ]; then
-            echo "DOWNLOAD FAIL: [$PAGE_URL] 에서 이미지 URL을 찾을 수 없습니다."
+            echo "시도하는 URL: $DIRECT_URL"
+            curl -sL --fail "$DIRECT_URL" -o "$TARGET_PATH"
+
+            if [ $? -eq 0 ] && [ -s "$TARGET_PATH" ]; then
+                echo "DOWNLOAD SUCCESS: $FILE_NAME"
+                REL_PATH="./resource/$RESOURCE_ID/$FILE_NAME"
+                sed -i -E "s|$PAGE_URL|$REL_PATH|g" "$FILE"
+                git add "$TARGET_PATH"
+                SUCCESS=1
+                break
+            else
+                rm -f "$TARGET_PATH"
+            fi
+        done
+
+        if [ $SUCCESS -eq 0 ]; then
+            echo "DOWNLOAD FAIL: $PAGE_URL (모든 확장자 시도 실패)"
             FAIL_COUNT=$((FAIL_COUNT+1))
-            continue
-        fi
-
-        FILE_NAME=$(basename "$DIRECT_URL")
-        TARGET_PATH="$TARGET_DIR/$FILE_NAME"
-
-        echo "작업 대상 파일 패스: [$TARGET_PATH]"
-        curl -sL "$DIRECT_URL" -o "$TARGET_PATH"
-
-        if [ $? -eq 0 ] && [ -s "$TARGET_PATH" ]; then
-            echo "DOWNLOAD SUCCESS: $FILE_NAME"
-            REL_PATH="./resource/$RESOURCE_ID/$FILE_NAME"
-
-            # Windows Git Bash / Linux 용 sed (in-place)
-            sed -i -E "s|$PAGE_URL|$REL_PATH|g" "$FILE"
-
-            git add "$TARGET_PATH"
-            SUCCESS_COUNT=$((SUCCESS_COUNT+1))
         else
-            echo "DOWNLOAD FAIL: $FILE_NAME"
-            rm -f "$TARGET_PATH"
-            FAIL_COUNT=$((FAIL_COUNT+1))
+            SUCCESS_COUNT=$((SUCCESS_COUNT+1))
         fi
     done
 
