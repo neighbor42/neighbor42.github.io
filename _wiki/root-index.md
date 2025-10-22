@@ -1,16 +1,21 @@
 ---
-layout  : wikiindex
+layout  : category
 title   : wiki
 toc     : true
 public  : true
 comment : false
 resource: 06/227923-8E1A-42ED-BD8B-7B8C4E1E70EE
-updated : 2025-09-04 15:47:07 +0900
+updated : 2025-10-22 11:47:58 +0900
 regenerate: true
 ---
 * TOC
 {:toc}
 
+## [[/vimwiki]]
+- [[/vimwiki/my-first-wiki]]
+- [[/vimwiki/vimrc_setting]]
+- [[/vimwiki/vimwiki_design]]
+- [[/vimwiki/commands]]
 
 ## [[/article]]
 - [[/article/react_with_langchain]]
@@ -44,8 +49,6 @@ regenerate: true
 - [[/obsidian/obsidian_setup1]]
 
 ## [[/how]]
-- [[/how/my-first-wiki]]
-- [[/how/vimwiki_design]]
 
 ## [[/incident_archive]]
 - [[/incident_archive/unicode_error_handling]]
@@ -68,20 +71,4 @@ regenerate: true
 - [[/blog/2025-05-12-catastrophic_forgetting]]
 - [[/blog/2025-06-12-multi_llm_api]]
 
----
-
-## blog posts
-<div>
-    <ul>
-{% for post in site.posts %}
-    {% if post.public == true %}
-        <li>
-            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-                {{ post.title }}
-            </a>
-        </li>
-    {% endif %}
-{% endfor %}
-    </ul>
-</div>
 

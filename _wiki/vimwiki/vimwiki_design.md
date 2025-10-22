@@ -8,7 +8,7 @@ tag     : design tailwind
 resource: 0D/85CC77-6432-488E-A181-19528F02F250
 toc     : true
 public  : true
-parent  : [[/how]]
+parent  : [[/vimwiki]]
 latex   : false
 ---
 * TOC

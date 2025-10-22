@@ -152,13 +152,15 @@ h1 {
     margin: 0px;
 }
 .post-content h1 {
-    border-bottom: 1px solid $theme-color;
+    padding-top: 40px;
+    border-bottom: 1px solid #d0d0d0;
 }
 h2 {
     font-size: 1.8em;
     border-bottom: 1px solid #d0d0d0;
 }
 .post-content h2 {
+    padding-top: 20px;
     &:before { content:"⠁"; }
 }
 h3 {

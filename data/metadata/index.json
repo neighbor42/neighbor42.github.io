@@ -18,6 +18,8 @@
   "pandas_interpolation",
   "pipreqs",
   "study",
+  "understanding_dl_notation",
+  "vimwiki",
   "vllm_serve"
  ]
 }

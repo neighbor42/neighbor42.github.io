@@ -69,7 +69,7 @@
  },
  {
   "name": "deeplearning",
-  "size": 2
+  "size": 3
  },
  {
   "name": "design",
@@ -169,11 +169,11 @@
  },
  {
   "name": "math",
-  "size": 1
+  "size": 2
  },
  {
   "name": "ml",
-  "size": 1
+  "size": 2
  },
  {
   "name": "nan",
@@ -189,7 +189,7 @@
  },
  {
   "name": "notation",
-  "size": 1
+  "size": 2
  },
  {
   "name": "obsidian",
@@ -249,7 +249,7 @@
  },
  {
   "name": "symbol",
-  "size": 1
+  "size": 2
  },
  {
   "name": "tailwind",

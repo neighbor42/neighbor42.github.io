@@ -3,11 +3,11 @@ layout  : wiki
 title   : 나만의 위키 만들기 johngrib-jekyll-skeleton 포크해서 시작하기
 summary : 
 date    : 2025-04-28 10:45:30 +0900
-updated : 2025-07-16 08:43:15 +0900
+updated : 2025-10-22 11:40:09 +0900
 tag     : vimwiki johngrib
 toc     : true
 public  : true
-parent  : [[/how]]
+parent  : [[/vimwiki]]
 latex   : false
 resource: 3B4E5F93-23F7-BD0F-399C-B6ACCC49763D
 ---
@@ -48,17 +48,25 @@ bundle exec jekyll serve
     - vimwiki, startify 플러그인 설치
     - .vimrc(mac) / \_vimrc(window) 아래 코드 추가
 
-```
-let wiki = {}
-let wiki.path = '~/neighbor42.github.io/_wiki/' --> 내 주소로 변경
-let wiki.ext = '.md'
+index.md와 root-index.md의 차이를 잘 모르겠는데, startify에서 root-index.md 열어주길 바래서 아래처럼 경로를 변경해줌
 
-let g:vimwiki_list = [wiki]
+```
+
+let g:vimwiki_list = [
+      \ {
+      \ 'path': '<내 위키 폴더 위치~/github/_wiki(대충 이런 위치)>',
+      \ 'index': 'root-index',
+      \ 'syntax': 'markdown',
+      \ 'ext': '.md'
+      \ }
+      \ ]
 let g:vimwiki_conceallevel = 0
 ```
 
 그 뒤 Vimwiki 설정 참고
 - [johngrib wiki](https://johngrib.github.io/wiki/vimwiki/)
+- 메타데이터 updated 항목 자동 업데이트(\_vimrc)
+- 새 문서 기본 형식 입력(\_vimrc)
 
 
 ## vimwiki 기본 정보 변경
@@ -81,15 +89,22 @@ let g:vimwiki_conceallevel = 0
 새로운 글 등록시 메타 데이터 자동 업데이트를 위해 Git hooks 추가
 
 ```bash
-cp tool/pre-commit ./.git/hooks
+# tool/pre-commit 파일을  .git/hooks 폴더로 복사
+cp tool/pre-commit .git/hooks
 
 # 필요시 권한 부여
 chmod +x generateData.js
 chmod +x tool/save-images.sh
 
+
 # 메타 데이터 생성 위한 yamljs 설치
-npm install
+npm install yamljs
 ```
+### npm command not found
+1. [Node.js 설치](https://nodejs.org/ko/download)
+2. `node -v`, `npm -v`로 버전 번호 출력 => 정상 설치 확인
+3. 설치 후 다시 `npm install yamljs` 실행
+
 
 ## .vimrc 파일
 - 메타데이터 updated 항목 자동 업데이트
@@ -102,6 +117,12 @@ npm install
 - 나중에 윈도우 설정 파일 + 문제 해결 방법 작성
 
 
+## 테마 설정
+- [vimcolorschemes](https://vimcolorschemes.com/i/trending)
+1. 원하는 테마 다운로드
+2. color 폴더 안으로 colorscheme 파일 이동(gvim의 경우 `<사용자이름>\vimfiles\colors\`)
+3-1. gvim 실행 후 `:colorscheme <테마이름>`
+3-2. `\_vimrc`에 `colorshceme gruvbox` 추가
 
 ## 사용법
 - 인덱스(root-index.md)에 폴더와 문서 적고 작성

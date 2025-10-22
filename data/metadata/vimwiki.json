@@ -1,0 +1,16 @@
+{
+ "type": "wiki",
+ "title": "Vimwiki",
+ "summary": "Vimwiki 설정과 관련 내용",
+ "parent": "index",
+ "url": "/wiki/vimwiki",
+ "updated": "2025-10-22 09:33:13 +0900",
+ "resource": "64e1c7e1-3ad9-4605-82f3-c9e8b332ae97",
+ "children": [
+  "vimwiki/commands",
+  "vimwiki/my-first-wiki",
+  "vimwiki/vimrc_setting",
+  "vimwiki/vimwiki_design",
+  "vimwiki/vimwiki_design_dr"
+ ]
+}
