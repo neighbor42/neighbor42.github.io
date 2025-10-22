@@ -3,7 +3,7 @@ layout  : wiki
 title   : 나만의 위키 만들기 johngrib-jekyll-skeleton 포크해서 시작하기
 summary : 
 date    : 2025-04-28 10:45:30 +0900
-updated : 2025-10-22 11:40:09 +0900
+updated : 2025-10-22 13:53:53 +0900
 tag     : vimwiki johngrib
 toc     : true
 public  : true
@@ -95,6 +95,9 @@ cp tool/pre-commit .git/hooks
 # 필요시 권한 부여
 chmod +x generateData.js
 chmod +x tool/save-images.sh
+
+# 만약에 save-images.sh 실행이 안되면
+# choco install ag 하고 다시 시도
 
 
 # 메타 데이터 생성 위한 yamljs 설치
