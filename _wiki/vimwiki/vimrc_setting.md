@@ -3,7 +3,7 @@ layout  : wiki
 title   : 나의 Vimrc 설정
 summary : Windows _vimrc 
 date    : 2025-10-22 09:38:16 +0900
-updated : 2025-10-22 13:54:10 +0900
+updated : 2025-10-22 14:30:16 +0900
 tags    : _vimrc windows
 toc     : true
 public  : true
@@ -96,7 +96,7 @@ let g:vimwiki_list = [
 
 ### 이미지 추가 방식
 전에는 imgur를 사용했었는데, 링크를 일시적으로만 만들어줘서 예전 이미지가 전부 '찾을 수 없음'으로 뜬다.
-- github issue의 기능 사용
+- github issue의 기능 사용(imgur?)
 - `choco install ag`
 - 사진 복붙
 - 생성된 링크 사용
