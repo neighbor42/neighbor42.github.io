@@ -36,6 +36,7 @@ let g:vimwiki_list = [{
 
 ![img](https://imgur.com/EIQcDqC)
 
+
 ![johngrib-comment](https://github.com/user-attachments/assets/5e2533b8-78a3-459c-9154-91be70a74acd)
 ![comment](https://github-production-user-asset-6210df.s3.amazonaws.com/106816837/503954539-5e2533b8-78a3-459c-9154-91be70a74acd.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20251022%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251022T042414Z&X-Amz-Expires=300&X-Amz-Signature=ee13bea53ef39ee5d298ad80f00db775335e9e3079e10b0961855dbe869b2ca7&X-Amz-SignedHeaders=host)
 

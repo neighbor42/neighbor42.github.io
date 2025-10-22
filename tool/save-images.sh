@@ -81,7 +81,7 @@ for FILE in $CHANGE_LIST; do
     echo "생성할 디렉토리 경로: [$TARGET_DIR]"
     mkdir -p "$TARGET_DIR"
 
-    URLS=$(grep -oE "https://imgur\.com/[a-zA-Z0-9]{7,8}(?!\.(jpg|png|gif))" "$FILE" | sort -u)
+    URLS=$(grep -oE "https://imgur\.com/[a-zA-Z0-9]{7,8}" "$FILE" | sort -u)
 
     if [ -z "$URLS" ]; then
         echo "  [$FILE] 에 imgur 이미지 페이지 URL이 없습니다."
