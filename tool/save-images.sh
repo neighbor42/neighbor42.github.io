@@ -55,59 +55,75 @@
 # imgur
 #!/usr/bin/env bash
 
-# Imgur images downloader and URL replacer
-
-NUM=1855714
-
-# Get list of changed markdown files in git index
-CHANGE_LIST=`git diff --exit-code --cached --name-only --diff-filter=ACM -- '*.md'`
+BASE_RESOURCE_DIR="./resource"
 
 SUCCESS_COUNT=0
 FAIL_COUNT=0
-for CHANGED_FILE in $CHANGE_LIST; do
-    echo "이미지경로를 교정할 문서 파일: [$CHANGED_FILE]"
 
-    RESOURCE_DIR=`head $CHANGED_FILE | egrep -o '[A-F0-9-]{2}/[A-F0-9-]{34}$'`
-    TARGET_PATH="./resource/$RESOURCE_DIR"
+CHANGE_LIST=$(git diff --cached --name-only --diff-filter=ACM -- '*.md')
 
-    echo "생성할 디렉토리 경로: [$TARGET_PATH]"
-    mkdir -p "$TARGET_PATH"
+if [ -z "$CHANGE_LIST" ]; then
+    echo "스테이지된 마크다운 파일이 없습니다."
+    exit 0
+fi
 
-    # Find Imgur URLs (both page URLs and direct image URLs) in the markdown
-    URI_LIST=$(ag -o "https://imgur\.com/[a-zA-Z0-9]{7,8}(\.(png|jpg|gif))?" "$CHANGED_FILE")
+for FILE in $CHANGE_LIST; do
+    echo "이미지경로를 교정할 문서 파일: [$FILE]"
 
-    for URI in $URI_LIST; do
-        # Convert imgur page URLs (without extension) to direct image URLs
-        if [[ $URI =~ ^https://imgur\.com/([a-zA-Z0-9]+)$ ]]; then
-            IMG_ID="${BASH_REMATCH[1]}"
-            # Use jpg by default
-            URI="https://i.imgur.com/${IMG_ID}.jpg"
+    RESOURCE_ID=$(sed -n 's/^resource:[[:space:]]*\(.*\)$/\1/p' "$FILE" | head -1)
+
+    if [ -z "$RESOURCE_ID" ]; then
+        echo "  [$FILE] 에 resource 메타데이터가 없습니다. 건너뜁니다."
+        continue
+    fi
+
+    TARGET_DIR="$BASE_RESOURCE_DIR/$RESOURCE_ID"
+    echo "생성할 디렉토리 경로: [$TARGET_DIR]"
+    mkdir -p "$TARGET_DIR"
+
+    URLS=$(grep -oE "https://imgur\.com/[a-zA-Z0-9]{7,8}(?!\.(jpg|png|gif))" "$FILE" | sort -u)
+
+    if [ -z "$URLS" ]; then
+        echo "  [$FILE] 에 imgur 이미지 페이지 URL이 없습니다."
+        continue
+    fi
+
+    for PAGE_URL in $URLS; do
+        IMG_ID="${PAGE_URL##*/}"
+
+        echo "작업 대상 URI: [$PAGE_URL]"
+
+        DIRECT_URL=$(curl -sL "$PAGE_URL" | grep -oP '(?<=property="og:image" content=")[^"]+')
+
+        if [ -z "$DIRECT_URL" ]; then
+            echo "DOWNLOAD FAIL: [$PAGE_URL] 에서 이미지 URL을 찾을 수 없습니다."
+            FAIL_COUNT=$((FAIL_COUNT+1))
+            continue
         fi
 
-        FILE_NAME=$(basename "$URI")
-        RESOLVE_FILE_PATH="$TARGET_PATH/$FILE_NAME"
-        RESOLVE_URL=$(echo "$RESOLVE_FILE_PATH" | sed -E 's/^\.//')
+        FILE_NAME=$(basename "$DIRECT_URL")
+        TARGET_PATH="$TARGET_DIR/$FILE_NAME"
 
-        echo "작업 대상 URI: [$URI]"
-        echo "작업 대상 파일 패스: [$RESOLVE_FILE_PATH]"
+        echo "작업 대상 파일 패스: [$TARGET_PATH]"
+        curl -sL "$DIRECT_URL" -o "$TARGET_PATH"
 
-        curl -s -L "$URI" > "$RESOLVE_FILE_PATH"
-
-        if [ "$?" == "0" ]; then
+        if [ $? -eq 0 ] && [ -s "$TARGET_PATH" ]; then
             echo "DOWNLOAD SUCCESS: $FILE_NAME"
-            # Replace the URL in the markdown with local relative path
-            sed -i '' -E "s, *https://[^ ]*($FILE_NAME) *, $RESOLVE_URL ,g" "$CHANGED_FILE"
+            REL_PATH="./resource/$RESOURCE_ID/$FILE_NAME"
 
-            git add "$RESOLVE_FILE_PATH"
+            # Windows Git Bash / Linux 용 sed (in-place)
+            sed -i -E "s|$PAGE_URL|$REL_PATH|g" "$FILE"
 
+            git add "$TARGET_PATH"
             SUCCESS_COUNT=$((SUCCESS_COUNT+1))
         else
             echo "DOWNLOAD FAIL: $FILE_NAME"
-            rm -f "$RESOLVE_FILE_PATH"
+            rm -f "$TARGET_PATH"
             FAIL_COUNT=$((FAIL_COUNT+1))
         fi
     done
-    git add "$CHANGED_FILE"
+
+    git add "$FILE"
 done
 
 printf "Success: %d, Fail: %d\n" $SUCCESS_COUNT $FAIL_COUNT
