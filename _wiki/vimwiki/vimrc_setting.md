@@ -3,7 +3,7 @@ layout  : wiki
 title   : 나의 Vimrc 설정
 summary : Windows _vimrc 
 date    : 2025-10-22 09:38:16 +0900
-updated : 2025-10-22 10:56:33 +0900
+updated : 2025-10-22 13:19:52 +0900
 tags    : _vimrc windows
 toc     : true
 public  : true
@@ -35,6 +35,7 @@ let g:vimwiki_list = [{
 [이 글](https://johngrib.github.io/wiki/vimwiki/)의 댓글 섹션을 보면 윈도우에서 vimwiki를 설정 중인데 NewTemplate()이 제대로 작동하지 않는다는 내용이 있다. 
 
 ![johngrib-comment](https://github.com/user-attachments/assets/5e2533b8-78a3-459c-9154-91be70a74acd)
+![comment](https://github.com/user-attachments/assets/5e2533b8-78a3-459c-9154-91be70a74acd )
 
 
 Windows 에서도 resources(uuid) 칸을 사용할 생각이 없다면 아래와 같이 작성만해줘도 잘 돌아간다.
