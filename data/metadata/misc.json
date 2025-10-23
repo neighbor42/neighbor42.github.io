@@ -1,0 +1,12 @@
+{
+ "type": "wiki",
+ "title": "이것저것",
+ "summary": "미분류 포함 잡동사니",
+ "parent": "index",
+ "url": "/wiki/misc",
+ "updated": "2025-10-22 15:32:08 +0900",
+ "resource": "238f8091-b18a-4f4d-815e-38a484e091df",
+ "children": [
+  "misc/vocabulary"
+ ]
+}

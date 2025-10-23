@@ -34,10 +34,7 @@ let g:vimwiki_list = [{
 ### uuid
 [이 글](https://johngrib.github.io/wiki/vimwiki/)의 댓글 섹션을 보면 윈도우에서 vimwiki를 설정 중인데 NewTemplate()이 제대로 작동하지 않는다는 내용이 있다. 
 
-![img](./resource/a2552bf3-ef86-4082-b0b0-b6f1cf07248d/EIQcDqC.png)
-
-![johngrib-comment](./resource/a2552bf3-ef86-4082-b0b0-b6f1cf07248d/HxOCFCZ.png)
-
+![img](/resource/a2552bf3-ef86-4082-b0b0-b6f1cf07248d/EIQcDqC.png)
 
 Windows 에서도 resources(uuid) 칸을 사용할 생각이 없다면 아래와 같이 작성만해줘도 잘 돌아간다.
 
