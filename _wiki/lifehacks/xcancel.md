@@ -25,7 +25,7 @@ xcancel을 사용하려면 트위터 링크에서 `x.com` 부분을 `xcancel.com
 실제 트위터 링크: https://x.com/karpathy/status/1980397031542989305
 xcancel 링크: https://xcancel.com/karpathy/status1980397031542989305
 
-![xcancel](/resource/dd9ef5ec-9ad1-44ae-af7b-0524ca3cf1a8/9JEVd9q.png）
+![xcancel](/resource/dd9ef5ec-9ad1-44ae-af7b-0524ca3cf1a8/9JEVd9q.png)
 댓글도 한 눈에 볼 수 있어 아주 마음에 든다.
 
 ## Resources
