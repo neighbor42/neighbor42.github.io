@@ -5,7 +5,7 @@ toc     : true
 public  : true
 comment : false
 resource: 06/227923-8E1A-42ED-BD8B-7B8C4E1E70EE
-updated : 2025-10-27 17:58:45 +0900
+updated : 2025-11-04 08:14:15 +0900
 regenerate: true
 ---
 * TOC
@@ -71,6 +71,7 @@ regenerate: true
 - [[vllm_serve]]
 - [[mixture_of_experts]]
 - [[gpt5_and_promptguide]]
+- [[ai_agents]]
 
 
 ## [[/blog]]
