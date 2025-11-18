@@ -5,11 +5,14 @@ toc     : true
 public  : true
 comment : false
 resource: 06/227923-8E1A-42ED-BD8B-7B8C4E1E70EE
-updated : 2025-11-04 08:14:15 +0900
+updated : 2025-11-18 14:01:11 +0900
 regenerate: true
 ---
 * TOC
 {:toc}
+
+## [[/log]]
+- [[/log/2025]]
 
 ## [[/vimwiki]]
 - [[/vimwiki/my-first-wiki]]
