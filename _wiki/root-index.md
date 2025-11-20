@@ -5,7 +5,7 @@ toc     : true
 public  : true
 comment : false
 resource: 06/227923-8E1A-42ED-BD8B-7B8C4E1E70EE
-updated : 2025-11-18 14:01:11 +0900
+updated : 2025-11-20 17:16:04 +0900
 regenerate: true
 ---
 * TOC
@@ -61,12 +61,16 @@ regenerate: true
 - [[/lifehacks/semas_kyobo]]
 - [[/lifehacks/bose_speaker_charge_issue]]
 - [[/lifehacks/xcancel]]
+- [[/lifehacks/awesome_sites]]
 
 ## [[/package_manager]]
 - [[/package_manager/uv_basics]]
 
 ## [[/misc]]
 - [[/misc/vocabulary]]
+
+## [[/nursery]]
+- [[happy_accidents]]
 
 ## 미분류
 - [[pipreqs]]
