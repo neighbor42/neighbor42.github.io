@@ -3,7 +3,7 @@ layout  : wiki
 title   : 알짜배기 사이트들
 summary : 나를 위한 꿀단지
 date    : 2025-11-20 17:16:04 +0900
-updated : 2025-11-20 17:26:17 +0900
+updated : 2025-11-20 17:30:28 +0900
 tags    : 
 toc     : true
 public  : true
@@ -30,3 +30,8 @@ resource: 6ac118a9-4202-47f8-8eb8-6d375ad35807
 - [소상공인 전자도서관](https://semas.dkyobobook.co.kr/main.ink)
 - 매 월 전자책 1권을 빌려볼 수 있다
 - 루틴을 사용해서 저장해두는 편
+
+
+### AWS Architecture Icons
+- [링크](https://aws.amazon.com/ko/architecture/icons/)
+- ppt 만들 때 아주 유용하다
