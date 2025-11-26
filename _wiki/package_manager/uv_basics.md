@@ -3,7 +3,7 @@ layout  : wiki
 title   : uv 기본기
 summary : uv로 넘어오면서 헷갈리는 부분들 기록
 date    : 2025-10-27 17:58:45 +0900
-updated : 2025-10-28 10:27:14 +0900
+updated : 2025-11-26 13:04:32 +0900
 tags    : uv
 toc     : true
 public  : true
@@ -22,7 +22,7 @@ resource: 99e3d0fb-d2c8-4019-83e4-77ca3c66dc73
 curl -LsSf https://astral.sh/uv/install.sh | sh
 
 # Windows
-powershell -c "irm https://astral.sh/uv/install.ps1 | iex"
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
 ```
 
 ## 기본 명령어
